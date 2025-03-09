@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenneth Ayegba - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      background-color: #333;
+      color: white;
+    }
+
+    header, footer {
+      background-color: #444;
+      color: palegreen;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .badge img:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      background: linear-gradient(135deg, #444, #555);
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    ol, ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+    
+    .skills h2, .about h2, .interests h2 {
+      color: yellow;
+      margin-bottom: 15px;
+    }
+
+    .skills li, .about p, .interests p {
+      line-height: 1.5;
+    }
+    .about img {
+      border-radius: 50px;
+      max-width: 150px;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      gap: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    
+
+    a {
+  color: #4CAF50;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 5px;
+    }
+
+    a:hover {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      color: palegreen;
+   }
+
+    .badge-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .badge img {
+      width: 140px;
+      height: auto;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      a {
+        display: block;
+        margin-top: 10px;
+      }
+
+      .badge img {
+        width: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kenneth Ayegba</h1>
+  </header>
+
+  <section class="skills">
+    <h2>🔧Programming Skills</h2>
+    <div class="badge-container">
+      <div class="badge">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+      </div>
+      <div class="badge">
+        <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+      </div>
+      <div class="badge">
+        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+      </div>
+      <div class="badge">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+      </div>
+      <div class="badge">
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+      </div>
+      <div class="badge">
+        <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+      </div>
+      <div class="badge">
+        <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
+      </div>
+      <div class="badge">
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+      </div>
+      <div class="badge">
+        <img src="https://img.shields.io/badge/NoSQL-005571?style=for-the-badge" alt="NoSQL">
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <div class="img">
+      <img src="IMG_20200218_162451_032_080149.jpg" alt="Kenneth Ayegba">
+      <img src="Kenneth.jpg">
+      <img src="Image (41) (1).jpg">
+      <img src="Trips.jpg">
+      <img src="Keny.jpg">
+    </div>
+    <p>A graduate of B.Sc. in Industrial Physics in 2015, with research experience in improving stepper motor precision using microcontrollers. Completed NYSC in 2016 as a subject teacher. Subsequently, held contract positions as an assistant examiner for the West African Examination Council, and a classroom teacher under the N-Power program. Currently, I am actively learning and enhancing my programming skills through software development training and bootcamps (ALX, Base University Ideas Program, PLP) to gain strong programming skills and problem-solving abilities to contribute to the success of tech organizations as a backend software engineer.</p>
+  </section>
+
+  <section class="interests">
+    <h2>Interests</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>Mobile Development</li>
+      <li>UX Research</li>
+    </ul>
+    <p>I am driven and always excited about the latest trends in the tech world and I am striving to contribute my own quota in the tech ecosystem.</p>
+  </section>
+
+  <div style="text-align: center; margin-bottom: 20px;">
+    <a href="./Ayegba Kenneth.pdf" alt="Applicant CV">Download CV</a>
+    <a href="https://github.com/ayegbakenneth" target="_blank">Project Links</a>
+  </div>
+
+  <footer>
+    <p>Contact Me at: ayegbakenneth@gmail.com / +2347063707731</p>
+  </footer>
+
+</body>
+</html>
